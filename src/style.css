@@ -1424,9 +1424,11 @@ select {
    FOOTER
    ========================================================================== */
 .footer {
-  background: #040302;
-  border-top: 1px solid var(--border-subtle);
-  padding: 5rem 0 3rem 0;
+  background: #040302e3;
+    border-top: 1px solid var(--border-subtle);
+    padding: 5rem 0 3rem 0;
+    z-index: 99;
+    position: relative;
 }
 
 .footer-top {

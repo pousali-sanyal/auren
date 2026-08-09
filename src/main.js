@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       };
 
-      img.src = `./image/ezgif-frame-${frameNum}.jpg`;
+      img.src = `/image/ezgif-frame-${frameNum}.jpg`;
 
       if (img.complete && img.naturalWidth !== 0) {
         onFrameLoaded();
